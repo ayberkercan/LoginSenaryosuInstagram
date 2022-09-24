@@ -19,7 +19,7 @@ public class loginscenarios {
 
         try {
 
-            DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+  DesiredCapabilities capabilities = DesiredCapabilities.chrome();
             System.setProperty("webdriver.chrome.driver", "");
             driver = new ChromeDriver(capabilities);
 
@@ -35,15 +35,15 @@ public class loginscenarios {
             e.printStackTrace();
         }
 
-    }
+}
     @Test
     public void login() {
 
         try {
 
-            driver.get(loginUrl);
+            driver.get(loginUrl); 
 
-            driver.findElement(xpath("//input[@name='username']")).sendKeys("testdenemesi");
+driver.findElement(xpath("//input[@name='username']")).sendKeys("testdenemesi");
             sleep(5000);
 
             driver.findElement(xpath("//input[@name='password']")).sendKeys("123456");
@@ -59,7 +59,7 @@ public class loginscenarios {
         }
     }
     @After
-    public void tearDown() {
+    public void tearDown() throws Exception {
 
     }
 }

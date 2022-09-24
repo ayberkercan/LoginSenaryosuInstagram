@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import static java.lang.Thread.sleep;
 import static org.openqa.selenium.By.xpath;
 
-public class loginscenarios {
+public class loginSenaryosu {
     protected WebDriver driver;
     public static String loginUrl = "https://www.instagram.com/";
 

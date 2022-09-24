@@ -32,3 +32,6 @@ Aşağıda senaryoların kod’a dönüşmüş halini görebilirsiniz ;
 //Log In butonuna basılır
 
 — driver.quit(); //Tarayıcıyı kapatılır ve test sonlanır.
+
+
+Testimiz hazır. Run butonuna basarak yada Shift ve F10 tuşlarına basarak otomasyonu başlatabiliriz.
